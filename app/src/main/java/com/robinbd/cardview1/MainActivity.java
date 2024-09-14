@@ -1,5 +1,6 @@
 package com.robinbd.cardview1;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView imege;
     TextView tex;
     FrameLayout frame;
+    CardView school,namta;
+
 
     Animation zoomin,myanim;
     MeowBottomNavigation bottomnavigation;
@@ -40,6 +44,18 @@ public class MainActivity extends AppCompatActivity {
         imege = findViewById(R.id.imege);
         tex = findViewById(R.id.tex);
         frame =findViewById(R.id.frame);
+        school= findViewById(R.id.school);
+        namta= findViewById(R.id.namta);
+
+
+        school.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myint =new Intent(MainActivity.this,SchoolActivity.class);
+                startActivity(myint);
+            }
+        });
+
         //bottomnavigation...staet/
         bottomnavigation =findViewById(R.id.bottomnavigation);
         bottomnavigation.add(new MeowBottomNavigation.Model(1,R.drawable.settings));
@@ -79,7 +95,12 @@ public class MainActivity extends AppCompatActivity {
 
                 return null;
 
-            }
+            }  //end//
+
+
+
+
+
         });
 
 
@@ -106,6 +127,15 @@ public class MainActivity extends AppCompatActivity {
            }
        });
 
+       //namta activ
+        namta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myint =new Intent(MainActivity.this,NamtaActivity.class);
+                startActivity(myint);
+            }
+        });
+
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -115,4 +145,3 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-//robin

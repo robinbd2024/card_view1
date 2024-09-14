@@ -137,7 +137,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/airport"
+                android:id="@+id/namta"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
                 app:cardBackgroundColor="@color/white"
@@ -150,16 +150,17 @@
 
                 <ImageView
                     android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
-                    android:src="@drawable/airport"/>
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="35dp"
+                    android:src="@drawable/namta"/>
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Airport"
+                    android:text="Namta"
                     android:textSize="30sp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
