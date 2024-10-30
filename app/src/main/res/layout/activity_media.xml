@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mediabg"
+    tools:context=".MediaActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/songaa"
+        android:scaleType="centerCrop"
+       android:layout_marginTop="10dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+           >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/song"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="20dp"
+        app:cardMaxElevation="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baba koto din"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#3D5AFE"
+            android:textStyle="bold"
+            android:background="#58C6FF00"/>
+
+    </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/song1"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp"
+                app:cardMaxElevation="15dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Guru James "
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#F50057"
+                    android:background="#58C6FF00"/>
+
+            </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song2"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAA "
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#00E676"
+                android:textStyle="bold"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song3"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sei tumi "
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#651FFF"
+                android:textStyle="bold"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song4"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kobita"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FF3D00"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song5"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song6"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song7"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song8"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song9"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song10"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song11"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song12"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song13"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>  <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/song14"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baba koto din"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#3D5AFE"
+                android:background="#58C6FF00"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

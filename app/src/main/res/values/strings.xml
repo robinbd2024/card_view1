@@ -2,4 +2,26 @@
     <string name="app_name">Card View1</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="county_name">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Austria</item>
+        <item>Bahamas</item>
+        <item>Afghanistan</item>
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Colombia</item>
+        <item>Denmark</item>
+        <item>Ecuador</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Lebanon</item>
+        <item>Mexico</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+
+
+    </string-array>
+
 </resources>

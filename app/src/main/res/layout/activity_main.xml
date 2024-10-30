@@ -171,7 +171,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/restaurant"
+                android:id="@+id/media"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
                 app:cardBackgroundColor="@color/white"
@@ -189,13 +189,13 @@
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="20dp"
-                    android:src="@drawable/restaurant"/>
+                    android:src="@drawable/media"/>
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Restaurant"
+                    android:text="Media"
                     android:textSize="25sp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"

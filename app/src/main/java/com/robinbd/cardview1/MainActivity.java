@@ -29,11 +29,12 @@ public class MainActivity extends AppCompatActivity {
     ImageView imege;
     TextView tex;
     FrameLayout frame;
-    CardView school,namta;
+    CardView school,namta, media;
 
 
     Animation zoomin,myanim;
     MeowBottomNavigation bottomnavigation;
+
 
 
     @Override
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         frame =findViewById(R.id.frame);
         school= findViewById(R.id.school);
         namta= findViewById(R.id.namta);
+        media= findViewById(R.id.media);
 
 
         school.setOnClickListener(new View.OnClickListener() {
@@ -56,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //bottomnavigation...staet/
+        //bottom navigation...staet/
         bottomnavigation =findViewById(R.id.bottomnavigation);
         bottomnavigation.add(new MeowBottomNavigation.Model(1,R.drawable.settings));
         bottomnavigation.add(new MeowBottomNavigation.Model(2,R.drawable.home));
@@ -132,6 +134,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent myint =new Intent(MainActivity.this,NamtaActivity.class);
+                startActivity(myint);
+            }
+        });
+
+        //------media ply active-----//
+        media.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myint =new Intent(MainActivity.this,MediaActivity.class);
                 startActivity(myint);
             }
         });

@@ -49,6 +49,7 @@ public class NamtaActivity extends AppCompatActivity {
                     for (int x=1; x<=10; x++){
                         int mul =mycoumt*x;
                         tvdesply2.append(mycoumt+" * " +x+" = " +mul +"\n");
+                        count.setText("");
 
 
 
